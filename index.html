@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header class="header">
+        <div class="w1000-ce">
+          <div class="logo">
+            <p>Hung<i>DEV</i></p>
+          </div>
+          <nav class="menu">
+            <ul>
+              <li><a href="#home" onclick="showHomePage()">Trang chủ</a></li>
+              <li>
+                <a href="#cart" class="cart" onclick="displayCart()"
+                  >Giỏ hàng</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="content mt-80">
+        <div class="list-cart"></div>
+        <div class="list-prod w1000-ce"></div>
+      </div>
+      <footer class="footer">
+        <p>&copy; 2024 Trang Web Bán Sản Phẩm. Mọi quyền được bảo lưu.</p>
+      </footer>
+
+      <script src="./script.js"></script>
+    </div>
+  </body>
+</html>

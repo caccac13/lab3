@@ -1,0 +1,235 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.w1000-ce {
+  display: block;
+  width: 1000px;
+  margin: auto;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.header {
+  background-color: #e31837;
+  height: 60px;
+  line-height: 60px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.header > div {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.header .logo {
+  font-size: 24px;
+}
+.header .logo i {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  color: yellow;
+  font-size: 32px;
+}
+
+.header .menu {
+}
+
+header .menu ul {
+  list-style: none;
+  display: flex;
+}
+
+header .menu ul a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 12px;
+}
+
+.content .product-content h3 {
+  text-align: center;
+  font-size: 40px;
+  color: #e31837;
+  letter-spacing: 4px;
+  padding: 20px;
+}
+
+.content .filter {
+  text-align: center;
+}
+
+.content .list-prod {
+}
+
+.content .list-prod .wrapper-item {
+  float: left;
+  width: 33.33333%;
+}
+
+.content .list-prod::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.content .list-prod .item {
+  margin: 8px;
+  /* border: 1px solid #eaeaea; */
+  padding: 8px;
+  text-align: center;
+}
+
+.content .list-prod .item img {
+  width: 100%;
+}
+
+.content .list-prod .item .name {
+  font-weight: bold;
+  padding: 8px 0;
+  min-height: 120px;
+}
+
+.content .list-prod .item .price {
+  font-weight: bold;
+  color: #e31837;
+  font-size: 18px;
+}
+
+.content .list-prod .item button {
+  color: #fff;
+  background-color: #e31837;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color ease 0.3s;
+}
+
+.content .list-prod .item button:hover {
+  background-color: #d64c61;
+}
+
+.content .list-item {
+  background-color: yellow;
+  padding: 1px 0;
+  margin: 32px 0;
+  border-radius: 10px;
+}
+
+.content .list-item::before {
+  content: "Giỏ hàng";
+  display: block;
+  margin: 0 60px;
+  padding: 12px 0;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.content .cart-item {
+  display: flex;
+  padding: 32px;
+  align-items: center;
+  border-bottom: 2px dashed #fff;
+  margin: 0 16px;
+}
+
+.content .cart-item img {
+  height: 80px;
+}
+
+.content .cart-item .mid {
+  flex: 4;
+  margin-left: 32px;
+}
+
+.content .cart-item .mid input {
+  width: 30px;
+}
+
+.content .cart-item .price {
+  flex: 1;
+  font-weight: bold;
+}
+.content .cart-item .delete-item {
+  cursor: pointer;
+  padding: 12px;
+}
+
+.content .footer-cart {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+}
+
+.content .footer-cart .cart-total {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.content .footer-cart .cart-total span {
+  color: #e31837;
+}
+
+.content .footer-cart button {
+  font-size: 20px;
+  background-color: #e31837;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.content .pay {
+}
+
+.content .pay input {
+  width: 70%;
+  display: block;
+  margin-bottom: 20px;
+  padding: 12px;
+}
+
+.content .pay label {
+  padding: 10px 0;
+  display: block;
+}
+
+.content .pay button {
+  font-size: 20px;
+  background-color: #e31837;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.footer {
+  height: 50px;
+  margin-top: 20px;
+  background-color: #e31837;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+}
